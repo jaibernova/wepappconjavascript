@@ -1,12 +1,37 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 
-function App() {
+
+class App extends React.Component{
+  constructor(props){
+    super(props);
+    this.state={apiResponse:""};
+
+  }
+
+  callAPI(){
+    fetch("http://localhost:3005/testAPI")
+    .then(res => res.text())
+    .then(res => this.setState({apiResponse: res}));
+  }
+
+  componentWillMount(){
+    this.callAPI();
+  }
+
+
+
+
+
+render(){
   return (
-    <div>
-      <nav className>
+    <div className="App">
+      <header>
+        <h1>hola mundo</h1>
+      </header>
+      <p>{this.state.apiResponse}</p>
 
-      </nav>
     </div>
 
 
@@ -28,6 +53,7 @@ function App() {
       </header>
     </div>*/
   );
+}
 }
 
 export default App;

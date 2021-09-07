@@ -48,6 +48,9 @@ router.get('/:id', async (req,res) => {
     res.json(task);
 
 });
-j
+
+router.get('/', function(req,res,next){
+    res.send("API esta trabajadno");
+});
 
 module.exports=router;
