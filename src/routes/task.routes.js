@@ -23,6 +23,12 @@ router.post('/', async (req, res) =>{
     //res.json('recibido');
     res.json({status: 'tarea guardada'});
 });
+
+//envia una peticion a el frontend para asi editar los datos
+router.get('/:id', async (req, res) => {
+    const task = await Task.findById(req.params.id);
+    res.json(task);
+});
 //metodo para actualizar un registro de la base de datos
 router.put('/:id', async (req,res) => {
     const { title, description } = req.body;

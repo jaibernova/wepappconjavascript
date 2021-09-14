@@ -22,6 +22,7 @@ export default {
 #dashboard h1 {
   text-align: center; 
   width: 100%;
+  padding: 1%;
   height: 10vh;  
 }
 
