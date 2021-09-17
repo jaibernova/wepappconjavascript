@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #1bbd36;
+  color: #0c4dc5;
   text-decoration: none;
 }
 
 a:hover {
-  color: #2ae149;
+  color: #1434c4;
   text-decoration: none;
 }
 
@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a span {
-  color: #1bbd36;
+  color: #1257b3;
   text-decoration: none;
 }
 
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-social-links a:hover {
-  color: #1bbd36;
+  color: #1b5cbd;
 }
 
 @media (max-width: 768px) {
@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #navbar .active{
-  color: #1bbd36;
+  color: #1b54bd;
 }
 
 
@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #1bbd36;
+  color: #1b67bd;
 }
 
 .navbar .dropdown ul {
@@ -231,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #1bbd36;
+  color: #1b5cbd;
 }
 
 .navbar .dropdown:hover > ul {
