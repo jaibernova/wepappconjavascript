@@ -1,6 +1,6 @@
 <template>
   <div id="dashboard">
-    <h1>This is an about page</h1>
+    <h1>Gestion de ferreteria</h1>
     <TaskApp/>
   </div>
 </template>
